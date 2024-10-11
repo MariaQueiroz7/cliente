@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Pesquisa de satisfação de funcionários</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Informações Pessoais</legend>
+    <input type="text" name="name" placeholder="Nome">
+    <input type="email" name="email" placeholder="Email">
+    </fieldset>
+    <br>
+    <label for="message">Oque você mudaria na nossa empresa:</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    <br>
+    <label for="rh">De uma nota de 0 a 5 para o RH:</label>
+    <input type="number" id="rh" name="rh" min="0" max="5">
+    <br>
+    <label for="country">O que você acha da limpeza da empresa:</label>
+    <select id="country" name="country">
+        <option value="brasil">Ruim</option>
+        <option value="portugal">Boa</option>
+        <option value="usa">Otima</option>
+    </select>
+    <br>
+    <button type="submit">Enviar</button>
+
+</body>
+</html>
